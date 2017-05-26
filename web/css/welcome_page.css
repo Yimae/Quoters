@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+}
+.left_div{
+        text-align: center;
+        margin-top: 15%;
+        margin-left: 5%;
+	height: 100%;
+	width: 45%;
+	position: relative;
+	float: left;
+}
+
+.slogtype{
+	display: none;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 15s;
+    animation-name: fade;
+    animation-duration: 15s;
+}
+
+@keyframes fade{
+    from{opacity: .3}
+    tp{opacity: 1}
+}
+
+.right_div{
+        text-align: center;
+        margin-right: 5%;
+        margin-top: 10%;
+	height: 100%;
+	width: 45%;
+        float: left;
+}
+
+.inbox{
+        text-align: center;
+	font-family: "times new roman";
+	padding: 1% 15%;
+        border-radius: 2px;
+}
+.but{
+        font-family: "times new roman";
+        border-radius: 2px;
+        padding: 0.8% 18%;
+        border: none;
+        background-color: black;
+        color: white;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0,0,0,0));
+}
+
+.header_div{
+    background-color: black;
+    height: 2%;
+}
+
+.a_head{
+    text-align: center;
+    margin-left: 36%;
+    font-family: "times new roman";
+    text-decoration: none;
+    color: white;
+    font-size: 140%;
+}
+
+.a_head_log_cont{
+    margin-right: 15%;
+    font-family: "times new roman";
+    text-decoration: none;
+    color: white;
+    font-size: 140%;
+}
+
+.logoimg{
+    margin-top: 0.5%;
+}

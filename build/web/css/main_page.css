@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017. 5. 18, 오후 1:20:19
+    Author     : Kva
+*/
+.logo_menu_div{
+    text-align: center;
+}
+.men_ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: relative;
+    display: inline-table;
+    max-width: 80%;
+}
+.men_li{
+    float: left;
+}
+.a_men{
+    display: block;
+    padding: 20px 45px;
+    color: black;
+    font-family: "times new roman";
+    text-align: center;
+    text-decoration: none;
+    font-size: 250%;
+}
+
+.yourquotebox{
+    text-align: center;
+}
+
+.quotebox{
+        text-align: center;
+        width: 50%;
+        height: 100px;
+	font-family: "times new roman";
+        font-size:120%;
+	/*padding: 1% 15%;*/
+        border-radius: 2px;
+}
+
+.but2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: "times new roman";
+    font-size: 120%;
+    width: 50.5%;
+    border: 0px;
+}
